@@ -1,6 +1,5 @@
 import express from "express";
 import dotenv from "dotenv";
-// Authentication (Hafta 3) için gerekli kütüphaneler henüz dahil edilmedi.
 import { sequelize } from "./config/database.js";
 import { Transaction } from "./models/Transaction.js";
 import { User } from "./models/User.js";
