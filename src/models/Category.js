@@ -1,7 +1,7 @@
 import { DataTypes } from "sequelize";
 import { sequelize } from "../config/database.js";
 
-
+// Kategoriyi tek seferde dışa aktararak tanımlıyoruz.
 export const Category = sequelize.define('Category', {
     id: {
         type: DataTypes.UUID,
@@ -17,10 +17,8 @@ export const Category = sequelize.define('Category', {
         type: DataTypes.ENUM('income', 'expense'),
         allowNull: false,
     },
-  
+ 
 }, {
     tableName: 'categories',
     timestamps: true
 });
-
-
