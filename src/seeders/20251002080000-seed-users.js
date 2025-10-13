@@ -32,3 +32,4 @@ export async function up(queryInterface, Sequelize) {
 export async function down(queryInterface, Sequelize) {
   return queryInterface.bulkDelete("categories", null, {});
 }
+//Seed dosyaları, uygulamanın çalışması için gereken bu minimum kategori setini veritabanına garanti eder.

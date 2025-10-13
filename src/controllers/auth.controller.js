@@ -1,3 +1,4 @@
+// burada kayıt giriş ve kullanıcı bilgisi alma iş mantığı var 
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
 import { User } from "../models/User.js";

@@ -1,3 +1,4 @@
+//burada işlem oluşturma mantığı var
 import { Transaction } from "../models/Transaction.js";
 export const createTransaction = async (req, res) => {
     // req.userId, authenticateToken middleware'i tarafından eklendi.

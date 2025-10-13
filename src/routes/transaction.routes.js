@@ -14,3 +14,4 @@ router.post("/", createTransaction);
 router.get("/", getTransactions);
 
 export default router;
+// rotaları ilgili controllerle express ve router kullanarak eşleştrdim ve tüm rotalar için authenticateToken middlewere uyguladım 

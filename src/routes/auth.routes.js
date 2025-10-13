@@ -14,3 +14,4 @@ router.post("/login", login);
 router.get("/me", authenticateToken, getMe);
 
 export default router;
+// rotaları ilgili controllerle express ve router kullanarak eşleştrdim yetilwndirme yapılıyor
